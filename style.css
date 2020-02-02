@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+       
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    background: rgb(69, 125, 170);
+}
+
+.btn{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(8, 60, 119); 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 25px;
+    margin: 2px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+#message-container {
+    width: 80%;
+    max-width: 1100px;
+    margin-bottom: 100px;
+    margin-top:20px;
+}
+
+#message-container div {
+    padding: 7px;
+    background-color: rgb(105, 176, 223);
+    
+}
+
+#message-container div:nth-child(2n) {
+    background-color: white;
+}
+
+#send-container {
+    position: fixed;
+    margin-top: 30px;
+    padding-bottom: 25px;    
+    max-width: 1100px;
+    width: 80%;
+    bottom: 0;
+    display: flex;
+    background: rgb(69, 125, 170);
+}
+
+#message-input {
+    flex-grow: 1;
+    padding: 10px;
+}
